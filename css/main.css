@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+button {
+    background-color: gray;
+    color: white;
+    width: 5rem;
+    border-radius: 12px;
+    margin: 0 5px;
+    font-size: 4rem;
+}
+#input-number {
+    border-radius: 12px;
+    text-align: right;
+    font-size: 4rem;
+    width: 20%;
+}
+#add:hover {
+    background-color: white;
+    color: gray;
+}
+#subtract:hover {
+    background-color: white;
+    color: gray;
+}
+#result {
+    font-size: 5rem;
+    margin: 5rem;
+}
+#math-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
